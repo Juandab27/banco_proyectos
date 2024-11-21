@@ -1,6 +1,6 @@
 # Banco de Proyectos
 
-Es un software en donde se pueden publicar las ideas de los proyectos, con el fin de que el usuario pueda visualizarlas para completarlas.
+El Banco de Proyectos es una plataforma web creada para ayudar en la postulación de proyectos universitarios. Su objetivo es hacer más fácil tanto la postulación de nuevos proyectos como la recopilación de ideas para desarrollarlos. Está dirigida a estudiantes y profesores que quieren compartir ideas innovadoras, colaborativas y de investigación. Con esta plataforma, los usuarios pueden registrar sus proyectos, explorar los de otros y trabajar juntos para hacer realidad nuevas propuestas. Es un espacio donde se fomenta la colaboración y el intercambio de conocimientos para crear soluciones que puedan tener un impacto positivo en el ámbito académico.
 
 ## Tecnologías Utilizadas
 
@@ -53,7 +53,7 @@ Para utilizarlo lo recomendable es primero registrarse, con tus datos y luego in
 
 ## Ejemplo de uso
 
-1. Regustrate con tus credenciales.
+1. Registrate con tus credenciales.
 2. Inicia sesión en el sistema con tus credenciales.
 3. Visualiza los proyectos.
 4. Agrega proyectos y postúlalos.
