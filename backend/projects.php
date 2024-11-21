@@ -4,7 +4,7 @@ include 'config.php'; // Conexión a la base de datos
 header('Content-Type: application/json');
 
 // Obtener los proyectos desde la base de datos
-$query = "SELECT p.nombreProyectos, p.descripcionProyectos, u.nombreUsuario, u.apellidoUsuario
+$query = "SELECT p.nombreProyectos, p.descripcionProyectos, u.nombreUsuario, u.apellidoUsuario, u.correoUsuario
         FROM proyectos p
         INNER JOIN usuario u ON p.idUsuario = u.idUsuario";
 
@@ -19,7 +19,8 @@ if ($result->num_rows > 0) {
             'nombreProyectos' => $row['nombreProyectos'],
             'descripcionProyectos' => $row['descripcionProyectos'],
             'nombreUsuario' => $row['nombreUsuario'],
-            'apellidoUsuario' => $row['apellidoUsuario']
+            'apellidoUsuario' => $row['apellidoUsuario'],
+            'correoUsuario' => $row['correoUsuario']
         ];
     }
 

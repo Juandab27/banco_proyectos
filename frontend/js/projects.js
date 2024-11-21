@@ -16,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="project-card">
                         <h2>${project.nombreProyectos}</h2>
                         <p>${project.descripcionProyectos}</p>
-                        <p class="creator"><strong>Creado por:</strong> ${project.nombreUsuario} ${project.apellidoUsuario}</p> 
+                        <p class="creator"><strong>Creado por:</strong> ${project.nombreUsuario} ${project.apellidoUsuario}</p>
+                        <p class="contact"><strong>Contacto:</strong> ${project.correoUsuario}</p> 
                     </div>
                 `).join(''); // Une todos los elementos de proyecto en un solo string de HTML
             } else {
