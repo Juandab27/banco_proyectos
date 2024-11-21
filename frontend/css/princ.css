@@ -1,0 +1,30 @@
+
+.container {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 30px;
+}
+
+.container label {
+    font-weight: 500;
+    margin: 10px;
+}
+
+.buttons{
+    margin-top: 30px;
+}
+
+.container img {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}

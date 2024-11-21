@@ -1,0 +1,43 @@
+/* Estilos Específicos para el Login */
+.loginContainer {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.loginContainer img {
+    width: 60px;
+    height: 60px;
+}
+
+.loginContainer label {
+    text-align: left;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.loginContainer input[type="email"],
+.loginContainer input[type="password"] {
+    outline: 0;
+    border: 1px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.loginContainer h2 {
+    margin: 10px;
+}
+
+.loginContainer button{
+    margin: 5px;
+}

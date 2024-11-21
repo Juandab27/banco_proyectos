@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/banco_proyectos/frontend/css/dashboard.css">   
+    <script src="/banco_proyectos/frontend/js/projects.js" defer></script>
+    <script src="/banco_proyectos/frontend/js/app.js" defer></script>  
+</head>
+<body>
+    <header>
+        <img src="/banco_proyectos/frontend/img/logo.png" alt="logo">
+        <h1>Banco de Proyectos</h1>
+        <button id="logoutButton" class="logout">Cerrar Sesión</button>
+    </header>
+
+    <main>
+        <h3>Proyectos Postulados</h3>
+
+        <div class="container">
+            <div id="proyectos" class="project-list"></div>
+            <div class="containerButton">
+                <a href="postulacion.html">
+                    <button type="button" id="postulacion">Postular Proyecto</button>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright 2024</p>
+    </footer>
+</body>
+</html>

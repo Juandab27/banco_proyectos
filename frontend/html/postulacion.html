@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postulacion</title>
+    <link rel="stylesheet" href="/banco_proyectos/frontend/css/postulacion.css">
+    <link rel="stylesheet" href="/banco_proyectos/frontend/css/dashboard.css">  
+    <script src="/banco_proyectos/frontend/js/postular.js" defer></script>  
+</head>
+<header>
+    <img src="/banco_proyectos/frontend/img/logo.png" alt="logo">
+    <h1>Banco de Proyectos</h1>
+</header>
+<main>
+    <div class="postulacionContainer">
+        <h2>Postular Proyecto</h2>
+        <form id="postuForm">
+            <label for="nameP">Nombre de Proyecto:</label>
+            <input type="text" id="nameP" required>
+            <label for="descripcion">Descripcion:</label>
+            <textarea id="descripcion" name="descripcion" required></textarea>
+            <div class="buttonContainer">    
+                <button type="submit">Postular</button>
+                <a href="dashboard.html">
+                    <button type="button">Volver</button>
+                </a>
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+    <p>Copyright 2024</p>
+</footer>
+</html>

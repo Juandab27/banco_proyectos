@@ -1,0 +1,54 @@
+.postulacionContainer {
+    width: 500px;
+    min-height: 400px; /* Ajusté la altura mínima */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 0 auto; 
+}
+
+.postulacionContainer textarea {
+    resize: none; /* Desactiva el redimensionamiento */
+    width: 100%; /* Ancho completo */
+    height: 150px; /* Altura adecuada */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Ajuste de tamaño de texto */
+}
+
+/* Estilo para los inputs de texto */
+.postulacionContainer input {
+    width: 100%; /* Ancho completo */
+    padding: 10px;
+    margin-bottom: 15px; /* Separación entre campos */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #15adee;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #247fe0;
+}
+
+.buttonContainer {
+    margin: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+}

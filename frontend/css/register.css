@@ -1,0 +1,38 @@
+.registerContainer {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    padding: 30px;
+}
+
+.registerContainer label {
+    text-align: left;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.registerContainer input[type="email"], 
+.registerContainer input[type="text"],
+.registerContainer input[type="password"] {
+    outline: 0;
+    border: 1px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.registerContainer h2 {
+    margin: 10px;
+}
+
+.registerContainer button{
+    margin: 5px;
+}
