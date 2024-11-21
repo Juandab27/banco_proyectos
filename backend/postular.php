@@ -17,9 +17,9 @@ $data = json_decode(file_get_contents('php://input'), true);
 if (isset($data['action']) && $data['action'] === 'postular') {
     // Verificar si el usuario está autenticado
     if (isset($_SESSION['user_id'])) {
-        $idUsuario = $_SESSION['user_id']; // ID del usuario autenticado
-        $nombreProyecto = $data['nameP']; // Nombre del proyecto
-        $descripcionProyecto = $data['descripcion']; // Descripción del proyecto
+        $idUsuario = $_SESSION['user_id'];
+        $nombreProyecto = $data['nameP'];
+        $descripcionProyecto = $data['descripcion']; 
 
         // Insertar el proyecto en la base de datos
         $stmt = $conexion->prepare("INSERT INTO proyectos (nombreProyectos, descripcionProyectos, idUsuario) VALUES (?, ?, ?)");

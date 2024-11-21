@@ -46,7 +46,7 @@ if (isset($data['action']) && $data['action'] === 'login') {
 
     $stmt->close();
     $conexion->close();
-}// Cierre de sesión
+}//Logout
 elseif (isset($data['action']) && $data['action'] === 'logout') {
     session_unset();
     session_destroy();

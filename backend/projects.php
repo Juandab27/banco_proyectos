@@ -6,7 +6,7 @@ header('Content-Type: application/json');
 // Obtener los proyectos desde la base de datos
 $query = "SELECT p.nombreProyectos, p.descripcionProyectos, u.nombreUsuario, u.apellidoUsuario
         FROM proyectos p
-        INNER JOIN usuario u ON p.idUsuario = u.idUsuario"; // Asegúrate de ajustar los nombres de las tablas y campos
+        INNER JOIN usuario u ON p.idUsuario = u.idUsuario";
 
 $result = $conexion->query($query);
 
@@ -18,7 +18,7 @@ if ($result->num_rows > 0) {
         $proyectos[] = [
             'nombreProyectos' => $row['nombreProyectos'],
             'descripcionProyectos' => $row['descripcionProyectos'],
-            'nombreUsuario' => $row['nombreUsuario'], // El nombre del usuario que creó el proyecto
+            'nombreUsuario' => $row['nombreUsuario'],
             'apellidoUsuario' => $row['apellidoUsuario']
         ];
     }
