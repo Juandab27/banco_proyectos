@@ -96,7 +96,8 @@ http://localhost/nombre_del_proyecto
 
 Proyecto académico desarrollado como parte de la formación universitaria.
 
-Mi rol en el proyecto:
+**Juan David Bermúdez**
+
 Responsable del análisis, diseño e implementación completa del sistema, incluyendo:
 
 * Desarrollo del backend en PHP
