@@ -1,60 +1,107 @@
-# Banco de Proyectos
+# 📚 Banco de Proyectos
 
-El Banco de Proyectos es una plataforma web creada para ayudar en la postulación de proyectos universitarios. Su objetivo es hacer más fácil tanto la postulación de nuevos proyectos como la recopilación de ideas para desarrollarlos. Está dirigida a estudiantes y profesores que quieren compartir ideas innovadoras, colaborativas y de investigación. Con esta plataforma, los usuarios pueden registrar sus proyectos, explorar los de otros y trabajar juntos para hacer realidad nuevas propuestas. Es un espacio donde se fomenta la colaboración y el intercambio de conocimientos para crear soluciones que puedan tener un impacto positivo en el ámbito académico.
+El **Banco de Proyectos** es una plataforma web desarrollada para facilitar la postulación y gestión de proyectos universitarios.
 
-## Tecnologías Utilizadas
+Su objetivo es simplificar tanto la presentación de nuevas ideas como la exploración de proyectos existentes, fomentando la colaboración entre estudiantes y docentes.
 
-- PHP
-- MySQL
-- HTML/CSS
-- JavaScript
-- XAMPP (para el entorno local)
+La plataforma permite:
 
-## Instalación
+* Registrar nuevos proyectos
+* Explorar propuestas existentes
+* Postular ideas innovadoras
+* Promover el trabajo colaborativo
+* Impulsar iniciativas académicas y de investigación
 
-Para la instalación debemos tener lo siguiente:
+Es un espacio diseñado para fortalecer el intercambio de conocimientos y generar impacto positivo en el entorno académico.
 
-## Requisitos previos
+---
 
-- Tener XAMPP o un servidor PHP instalado.
-- Tener acceso a una base de datos MySQL.
-- Tener un editor de código.
+# 🚀 Tecnologías Utilizadas
 
-## Pasos para instalar
+* PHP
+* MySQL
+* HTML5
+* CSS3
+* JavaScript
+* XAMPP (entorno de desarrollo local)
 
-1. Clona el repositorio:
-    
-    git clone https://github.com/Juandab27/banco_proyectos.git
-    
+---
 
-2. Coloca el proyecto en la carpeta `htdocs` si usas XAMPP.
+# ⚙️ Instalación
 
-3. Configura la base de datos:
-   - Abre `phpmyadmin`.
-   - Crea una nueva base de datos.
-   - Importa el archivo `.sql` que contiene la estructura de la base de datos `bancoProyectos.sql`
+## 📌 Requisitos Previos
 
-4. Configura las credenciales de la base de datos en el archivo `config.php`.
-El archivo debe tener esta estructura:
-    
-    $host = 'localhost';
-    $usuario = 'tu_usuario'; 
-    $contraseña = 'tu_contraseña'; 
-    $base_datos = 'nombre_bd';
-    $puerto= 'tu_puerto';
+Antes de comenzar, asegúrate de tener:
 
-    $conexion = new mysqli($host, $usuario, $contraseña, $base_datos, $puerto);
+* XAMPP o un servidor con soporte para PHP
+* Acceso a MySQL
+* Un editor de código
 
-5. Abre el navegador y accede a `http://localhost/nombre_del_proyecto`.
+---
 
-## Uso
+## 🛠 Pasos para Instalar
 
-Para utilizarlo lo recomendable es primero registrarse, con tus datos y luego iniciar sesion, luego de iniciar sesion se mostrarán los proyectos que están almacenados en la base de datos, de igual forma se podrán postular más proyectos.
+### 1️⃣ Clonar el repositorio
 
-## Ejemplo de uso
+```
+git clone https://github.com/Juandab27/banco_proyectos.git
+```
 
-1. Registrate con tus credenciales.
-2. Inicia sesión en el sistema con tus credenciales.
-3. Visualiza los proyectos.
-4. Agrega proyectos y postúlalos.
-5. Visualiza los proyectos postulados.
+### 2️⃣ Mover el proyecto
+
+Si usas XAMPP, coloca la carpeta del proyecto dentro de:
+
+```
+htdocs
+```
+
+### 3️⃣ Configurar la base de datos
+
+1. Abre **phpMyAdmin**
+2. Crea una nueva base de datos
+3. Importa el archivo `bancoProyectos.sql`
+4. Configura las credenciales en el archivo `config.php`:
+
+```php
+$host = 'localhost';
+$usuario = 'tu_usuario';
+$contraseña = 'tu_contraseña';
+$base_datos = 'nombre_bd';
+$puerto = 'tu_puerto';
+
+$conexion = new mysqli($host, $usuario, $contraseña, $base_datos, $puerto);
+```
+
+### 4️⃣ Ejecutar el proyecto
+
+Abre tu navegador y accede a:
+
+```
+http://localhost/nombre_del_proyecto
+```
+
+---
+
+# 🖥 Uso del Sistema
+
+1. Regístrate con tus datos.
+2. Inicia sesión.
+3. Visualiza los proyectos almacenados.
+4. Postula nuevas ideas.
+5. Consulta los proyectos publicados.
+
+---
+
+# 👨‍💻 Autor
+
+Proyecto académico desarrollado como parte de la formación universitaria.
+
+Mi rol en el proyecto:
+Responsable del análisis, diseño e implementación completa del sistema, incluyendo:
+
+* Desarrollo del backend en PHP
+* Diseño de la base de datos en MySQL
+* Implementación del frontend (HTML, CSS y JavaScript)
+* Integración y pruebas del sistema
+
+---
